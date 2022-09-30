@@ -1,0 +1,6 @@
+README.md
+.next
+*.d.ts
+.prettierrc
+next.config.js
+*.yml

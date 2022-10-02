@@ -11,20 +11,20 @@ const Card: React.FC = ({ children }) => {
         <div className="px-2 py-1  text-black font-montserrat font-medium">{children}</div>
       </div>
       {/* Left top circle */}
-      <div className="absolute top-[-50%] left-[-35%] z-0">
+      <div className="absolute top-[-50%] left-[-35%] z-0 animate-[moveUp_12s_linear__infinite]">
         <div className="relative w-[300px] h-[300px] z-0 ">
           <Image src="/images/Rectangle-2.png" layout="fill" alt="" />
         </div>
       </div>
       {/* Right bottom circle */}
 
-      <div className="absolute bottom-[-50%] right-[-35%]  z-0">
+      <div className="absolute bottom-[-50%] right-[-35%]  z-0 animate-[moveUp2_15s_linear__infinite]">
         <div className="relative w-[300px] h-[300px] z-0 ">
           <Image src="/images/Rectangle-1.png" layout="fill" alt="" />
         </div>
       </div>
       {/* Yellow circle */}
-      <div className="absolute top-[50%] left-[50%] -translate-y-1/2 -translate-x-1/2 z-0">
+      <div className="absolute top-[50%] left-[50%]  z-0 animate-[transformYellowCircle_10s_linear__infinite]">
         <div className="relative w-[150px] h-[150px] z-0 ">
           <Image src="/images/Rectangle-3.png" layout="fill" alt="" />
         </div>

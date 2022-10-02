@@ -4,3 +4,4 @@ README.md
 .prettierrc
 next.config.js
 *.yml
+postcss.config.js

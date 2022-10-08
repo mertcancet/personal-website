@@ -1,6 +1,7 @@
 .container {
   background-image: url('/images/gum.png');
   animation: spin 60s infinite linear;
+  left: calc(50% - 100px);
 }
 @keyframes spin {
   from {

@@ -7,7 +7,7 @@ import Card from '../card';
 
 const PersonalInfo = () => {
   return (
-    <div className="relative mt-[-150px]">
+    <div className="relative mt-[-150px] px-3">
       <Avatar />
       <Card className="max-w-[500px]  pt-[100px] ">
         <PersolnalInfoContent />

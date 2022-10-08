@@ -10,7 +10,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ className, children }) => {
   return (
     <div className={cx('  p-5 rounded-xl  z-10 relative ', styles.card, className)}>
-      <div className="px-2 py-1  text-black font-montserrat font-medium">{children}</div>
+      <div className="px-2 py-1  text-black font-montserrat font-medium h-full">{children}</div>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const PersonalInfo = () => {
         <PersolnalInfoContent />
       </Card>
       {/* Left top circle */}
-      <div className="absolute top-[-50%] left-[-35%] z-0 animate-[moveUp_12s_linear__infinite]">
+      <div className="absolute top-0 left-[-100px] sm:left-[-200px] z-0 animate-[moveUp_12s_linear__infinite]">
         <div className="relative w-[300px] h-[300px] z-0 blur-2xl ">
           <Image src="/images/Rectangle-2.png" layout="fill" alt="" unoptimized priority />
         </div>

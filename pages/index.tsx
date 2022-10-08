@@ -1,13 +1,13 @@
 import type { NextPage } from 'next';
 
-import { Card, Layout } from 'src/components';
+import { Layout, PersonalInafo } from 'src/components';
 
 const Home: NextPage = () => {
   return (
     <Layout>
       <div className="h-screen">
         <div className="flex justify-center items-center  h-full ">
-          <Card>Mertcan Cetinkaya</Card>
+          <PersonalInafo />
         </div>
       </div>
     </Layout>

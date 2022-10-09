@@ -28,8 +28,7 @@ const PersonalInfoContent: React.FC = () => {
           </Link>
           - based in Turkey.
         </span>
-        <span>If you have any questions, you can reach me from the links below.</span>
-        <span>Thank you for coming 👋 </span>
+        <span>If you have any questions, you can reach me from the links below.👋</span>
       </div>
       <div className="flex justify-evenly mt-5">
         {icons.map((icon, index) => (
